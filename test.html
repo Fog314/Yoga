@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <form name="person">
+        <input name="name" value="Виктор">
+        <input name="surname" value="Цой">
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        let btn = document.querySelector('button');
+        btn.addEventListener('click',(event)=>{
+            event.preventDefault();
+            // создать объект для формы
+        var formData = new FormData(document.forms.person);
+
+// отослать
+var xhr = new XMLHttpRequest();
+xhr.open("POST", "server.php");
+xhr.send(formData);
+        })
+        
+    </script>
+</body>
+
+</html>
