@@ -8,10 +8,10 @@ window.addEventListener('DOMContentLoaded', function () {
         slider = require('./parts/slider.js'),
         calc = require('./parts/calc.js');
 
-        tabs();
-        timer();
-        modal();
-        form();
-        slider();
-        calc();
+    tabs();
+    timer();
+    modal();
+    form();
+    slider();
+    calc();
 });

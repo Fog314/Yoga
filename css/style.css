@@ -92,7 +92,7 @@ header ul li:before {
 .main {
   height: 650px;
   width: 100%;
-  background: url(../img/bg.jpg) center no-repeat;
+  background: url(../src/img/bg.jpg) center no-repeat;
   background-size: cover;
 }
 
@@ -141,7 +141,7 @@ header ul li:before {
 .content {
   width: 100%;
   min-height: 3200px;
-  background: url(../img/main_bg.jpg);
+  background: url(../src/img/main_bg.jpg);
   background-position: 50% 30%;
 }
 
@@ -356,7 +356,7 @@ header ul li:before {
 .content .slider .wrap .prev .arrow-left {
   width: 30px;
   height: 30px;
-  background: url(../icons/left-arrow.svg) center no-repeat;
+  background: url(../src/icons/left-arrow.svg) center no-repeat;
   background-size: cover;
   position: absolute;
   top: 50%;
@@ -391,7 +391,7 @@ header ul li:before {
 .content .slider .wrap .next .arrow-right {
   width: 30px;
   height: 30px;
-  background: url(../icons/right-arrow.svg) center no-repeat;
+  background: url(../src/icons/right-arrow.svg) center no-repeat;
   background-size: cover;
   position: absolute;
   top: 50%;
@@ -693,7 +693,7 @@ header ul li:before {
 }
 
 .overlay .popup-form {
-  background: url(../img/modal.jpg) center no-repeat;
+  background: url(../src/img/modal.jpg) center no-repeat;
   background-size: cover;
   padding: 35px 88px 50px 88px;
   color: #fff;

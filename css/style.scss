@@ -75,7 +75,7 @@ header {
 .main {
 	height: 650px;
 	width: 100%;
-	background: url(../img/bg.jpg) center no-repeat;
+	background: url(../src/img/bg.jpg) center no-repeat;
 	background-size: cover;
 	&-block {
 		width: 750px;
@@ -120,7 +120,7 @@ header {
 .content {
 	width: 100%;
 	min-height:3200px;
-	background: url(../img/main_bg.jpg);
+	background: url(../src/img/main_bg.jpg);
 	background-position: 50% 30%;
 	.info {
 		width: 100%;
@@ -287,7 +287,7 @@ header {
 				.arrow-left {
 					width: 30px;
 					height: 30px;
-					background: url(../icons/left-arrow.svg) center no-repeat;
+					background: url(../src/icons/left-arrow.svg) center no-repeat;
 					background-size: cover;
 					position: absolute;
 					top: 50%;
@@ -315,7 +315,7 @@ header {
 				.arrow-right {
 					width: 30px;
 					height: 30px;
-					background: url(../icons/right-arrow.svg) center no-repeat;
+					background: url(../src/icons/right-arrow.svg) center no-repeat;
 					background-size: cover;
 					position: absolute;
 					top: 50%;
@@ -560,7 +560,7 @@ header {
 			text-align: center;
 		}
 		&-form {
-			background: url(../img/modal.jpg) center no-repeat;
+			background: url(../src/img/modal.jpg) center no-repeat;
 			background-size: cover;
 			padding: 35px 88px 50px 88px;
 			color: #fff;

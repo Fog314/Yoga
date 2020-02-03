@@ -1,8 +1,11 @@
+
 let message = {
     loading: "загрузка",
     success: "Спасибо, скоро мы с вами свяжемся",
     failure: "Что-то пошло не так"
 };
+
+console.log(message);
 
 let form = document.querySelector(".main-form");
 let formInput = form.querySelector('input');
@@ -10,7 +13,7 @@ let input = document.getElementsByTagName('input');
 let contactForm = document.querySelector('#form');
 let contactFormInput = contactForm.querySelectorAll('input');
 let statusMessage = document.createElement('div');
-console.log(form);
+console.log(statusMessage);
 console.log(contactForm);
 statusMessage.classList.add('status');
 
@@ -62,10 +65,10 @@ form.addEventListener('submit', (event) => {
     xhr.send(json);
     xhr.addEventListener('readystatechange', writeMessage);
     for (let i = 0; i < input.length; i++) {
-        input[i].value = "";
+        input[i].value = '';
     }
 
-    writeMessage();
+    form.appendChild(statusMessage);
 
 });
 contactForm.addEventListener('submit', (event) => {
@@ -93,9 +96,10 @@ contactForm.addEventListener('submit', (event) => {
     xhr.send(json);
     xhr.addEventListener('readystatechange', writeMessage);
     for (let i = 0; i < input.length; i++) {
-        input[i].value = "";
+        input[i].value = '';
     }
+    
 
-    writeMessage();
+    contactForm.appendChild(statusMessage);
 
 });

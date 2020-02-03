@@ -4,7 +4,9 @@
   "description": "yoga project with webpack",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "webpack": "webpack",
+    "dev": "npm run webpack -- --mode development --watch",
+    "build": "npm run webpack -- --mode production"
   },
   "repository": {
     "type": "git",
@@ -24,13 +26,11 @@
   },
   "homepage": "https://github.com/Fog314/Yoga#readme",
   "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "babel-loader": "^8.0.6",
     "uglifyjs-webpack-plugin": "^2.2.0",
-    "webpack": "^4.41.5 ",
+    "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10"
-  },
-  "scripts": {
-    "webpack" : "webpack",
-    "dev": "npm run webpack -- --mode development --watch",
-    "build": "npm run webpack -- --mode production"
-}
+  }
 }

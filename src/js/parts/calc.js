@@ -1,5 +1,3 @@
-export default function calc(){
-
 let persons = document.querySelectorAll('.counter-block-input')[0],
     restDays = document.querySelectorAll('.counter-block-input')[1],
     place = document.querySelector('#select'),
@@ -51,4 +49,3 @@ console.log(localStorage.getItem("number"));
 
 
 localStorage.removeItem("number");
-}
