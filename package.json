@@ -1,0 +1,36 @@
+{
+  "name": "yogaproject",
+  "version": "1.0.0",
+  "description": "yoga project with webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fog314/Yoga.git"
+  },
+  "keywords": [
+    "javascript",
+    "js",
+    "webpack",
+    "HTML",
+    "CSS"
+  ],
+  "author": "Tim Iskhakov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fog314/Yoga/issues"
+  },
+  "homepage": "https://github.com/Fog314/Yoga#readme",
+  "devDependencies": {
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.41.5 ",
+    "webpack-cli": "^3.3.10"
+  },
+  "scripts": {
+    "webpack" : "webpack",
+    "dev": "npm run webpack -- --mode development --watch",
+    "build": "npm run webpack -- --mode production"
+}
+}

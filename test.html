@@ -22,6 +22,9 @@
             // создать объект для формы
         var formData = new FormData(document.forms.person);
 
+// добавить к пересылке ещё пару ключ - значение
+formData.append(key);
+
 // отослать
 var xhr = new XMLHttpRequest();
 xhr.open("POST", "server.php");
