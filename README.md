@@ -1,4 +1,4 @@
 # Yoga
 My yoga site
 
-Used: HTML, CSS, JS
+Used: HTML, CSS, JS, Webpack
